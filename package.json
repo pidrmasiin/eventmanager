@@ -8,6 +8,9 @@
     "watch": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "8.9.4"
+  },
   "author": "Petteri Pääkkönen",
   "license": "CC-BY-NC-4.0",
   "dependencies": {
