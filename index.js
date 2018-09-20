@@ -18,6 +18,7 @@ mongoose.Promise = global.Promise
 
 app.use(cors())
 app.use(bodyParser.json())
+app.use(express.static('build')) 
 
 app.use('/api/users', userRouter)
 app.use('/api/login', loginRouter)
