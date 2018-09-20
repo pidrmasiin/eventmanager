@@ -10,3 +10,4 @@ PORT=3003
 
 SECRET="choose secret"
 
+[Link to frontend](https://github.com/pidrmasiin/eventmanagerfront)
